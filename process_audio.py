@@ -17,7 +17,7 @@ def predict_gender(audios, intervals, complex):
 
     step_seconds = 0.04
 
-    model_path = 'raw/weights/max_pooling__n_layers=7__n_filters=64__downsampling=1__n_seconds=3.torch'
+    model_path = 'model/weights/max_pooling__n_layers=7__n_filters=64__downsampling=1__n_seconds=3.torch'
 
     model_type = model_path.split('/')[-1].split('__')[0]
     model_name = model_path.split('/')[-1].split('.')[0]
