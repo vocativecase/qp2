@@ -1,6 +1,9 @@
-analyses/results/
-raw/
+results/
 .idea/
 
-*.pyc
 
+*.TextGrid
+*.pyc
+*.wav
+*.txt
+*.json
