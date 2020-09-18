@@ -1,5 +1,6 @@
 analyses/results/
 raw/
+.idea/
 
 *.pyc
 
